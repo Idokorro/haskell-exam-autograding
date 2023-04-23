@@ -8,6 +8,6 @@ import GHC.Base (undefined)
 -}
 
 main :: IO ()
-main = do f <- readLine
-          s <- readLine
+main = do f <- getLine
+          s <- getLine
           putStrLn $ f ++ " " ++ s 

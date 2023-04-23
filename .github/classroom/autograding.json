@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "First",
+      "setup": "",
+      "run": "cabal test first",
+      "input": "",
+      "output": "1 of 1 test suites (1 of 1 test cases) passed.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Second",
+      "setup": "",
+      "run": "cabal test second",
+      "input": "",
+      "output": "1 of 1 test suites (1 of 1 test cases) passed.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Executable",
+      "setup": "",
+      "run": "cabal run exam",
+      "input": "Hello\r\nWorld! :)",
+      "output": "Hello World! :)",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}

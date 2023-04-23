@@ -24,7 +24,7 @@
       "name": "Executable",
       "setup": "",
       "run": "cabal run exam",
-      "input": "Hello\r\nWorld! :)",
+      "input": "Hello\nWorld! :)",
       "output": "Hello World! :)",
       "comparison": "included",
       "timeout": 10,

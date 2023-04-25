@@ -69,18 +69,18 @@ import GHC.Base (undefined)
     Write a function that adds two numbers.
 -}
 
--- first :: Num a => a -> a -> a
--- first = undefined
-
 first :: Num a => a -> a -> a
-first x y = x + y
+first = undefined
+
+-- first :: Num a => a -> a -> a
+-- first x y = x + y
 
 {-  1.
     Write a function that subtracts two numbers.
 -}
 
--- second :: Num a => a -> a -> a
--- second = undefined
-
 second :: Num a => a -> a -> a
-second x y = x - y
+second = undefined
+
+-- second :: Num a => a -> a -> a
+-- second x y = x - y
